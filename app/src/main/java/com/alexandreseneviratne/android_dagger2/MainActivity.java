@@ -12,7 +12,7 @@ import javax.inject.Inject;
 public class MainActivity extends AppCompatActivity {
     
     @Inject
-    private MemberDataManager memberDataManager;
+    MemberDataManager memberDataManager;
     
     private Button submitBtn;
     private EditText memberId;
